@@ -9,7 +9,7 @@ import {
 
 export function Footer() {
   return (
-  <footer className="mt-auto w-full border-t border-neutral-200">
+ <footer className="mt-auto w-full border-t border-neutral-200 dark:border-neutral-800 bg-gradient-to-br from-neutral-50 via-neutral-100 to-neutral-200 dark:from-neutral-900 dark:via-neutral-800 dark:to-neutral-900">
   <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
     <div className="flex flex-col items-center justify-between gap-y-3 sm:flex-row">
       <div className="flex items-center gap-x-3">
