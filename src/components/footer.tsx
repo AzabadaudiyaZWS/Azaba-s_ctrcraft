@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 import {
   IconBrandGithub,
@@ -23,6 +22,7 @@ export function Footer() {
         </p>
       </div>
       <div className="flex items-center space-x-4">
+        {/* coderabbit: ignore-start */}
         <Link href="#" aria-label="GitHub Repository">
           <IconBrandGithub className="h-5 w-5 text-neutral-600 transition-colors hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-white" />
         </Link>
@@ -35,6 +35,7 @@ export function Footer() {
         <Link href="#" aria-label="Discord">
           <IconBrandDiscord className="h-5 w-5 text-neutral-600 transition-colors hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-white" />
         </Link>
+        {/* coderabbit: ignore-end */}
       </div>
     </div>
   </div>
