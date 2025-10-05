@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import {
   IconBrandGithub,
   IconBrandTwitter,
@@ -12,10 +13,12 @@ export function Footer() {
   <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
     <div className="flex flex-col items-center justify-between gap-y-3 sm:flex-row">
       <div className="flex items-center gap-x-3">
-        <img
+        <Image
           src="https://ik.imagekit.io/akghosh111/erasebg-transformed%20(1).png?updatedAt=1757783310032"
           alt="CTRCraft Logo"
-          className="h-12 w-auto" 
+          width={48}
+          height={48}
+          className="h-12 w-auto"
         />
         <p className="text-sm text-neutral-600 dark:text-neutral-400">
           &copy; {new Date().getFullYear()} CTRcraft. All rights reserved.
